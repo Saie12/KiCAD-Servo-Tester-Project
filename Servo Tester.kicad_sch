@@ -1661,7 +1661,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 36.83 39.37 0)
+		(at 171.45 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1670,23 +1670,25 @@
 		(fields_autoplaced yes)
 		(uuid "1f04b108-d609-475b-9470-5b80cc3c876e")
 		(property "Reference" "D1"
-			(at 36.83 33.02 0)
+			(at 173.99 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "1N4148"
-			(at 36.83 35.56 0)
+			(at 173.99 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 36.83 39.37 0)
+			(at 171.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +1697,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 36.83 39.37 0)
+			(at 171.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +1706,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 36.83 39.37 0)
+			(at 171.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1713,7 +1715,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 36.83 39.37 0)
+			(at 171.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1722,7 +1724,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 36.83 39.37 0)
+			(at 171.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1749,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 27.94 0)
+		(at 198.12 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1756,25 +1758,23 @@
 		(fields_autoplaced yes)
 		(uuid "3883c0b7-8f29-4476-8a65-cde6cfa6190d")
 		(property "Reference" "R2"
-			(at 57.15 26.6699 0)
+			(at 198.12 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "R"
-			(at 57.15 29.2099 0)
+			(at 198.12 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 52.832 27.94 90)
+			(at 198.12 122.428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1783,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 27.94 0)
+			(at 198.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,7 +1792,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 27.94 0)
+			(at 198.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1817,7 +1817,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 76.2 48.26 0)
+		(at 157.48 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1826,7 +1826,7 @@
 		(fields_autoplaced yes)
 		(uuid "58a20b29-7e12-42b0-bba8-24b84194fe6b")
 		(property "Reference" "C1"
-			(at 80.01 46.9899 0)
+			(at 161.29 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,7 +1835,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 80.01 49.5299 0)
+			(at 161.29 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,7 +1844,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.1652 52.07 0)
+			(at 158.4452 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,7 +1853,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 48.26 0)
+			(at 157.48 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +1862,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 76.2 48.26 0)
+			(at 157.48 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,7 +1887,7 @@
 	)
 	(symbol
 		(lib_id "Timer:NE555P")
-		(at 54.61 55.88 0)
+		(at 140.97 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1896,7 +1896,7 @@
 		(fields_autoplaced yes)
 		(uuid "59274411-9add-436e-9a6e-b885b89f7148")
 		(property "Reference" "U1"
-			(at 56.7533 43.18 0)
+			(at 143.1133 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1905,7 +1905,7 @@
 			)
 		)
 		(property "Value" "NE555P"
-			(at 56.7533 45.72 0)
+			(at 143.1133 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,7 +1914,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 71.12 66.04 0)
+			(at 157.48 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1923,7 +1923,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne555.pdf"
-			(at 76.2 66.04 0)
+			(at 162.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +1932,7 @@
 			)
 		)
 		(property "Description" "Precision Timers, 555 compatible,  PDIP-8"
-			(at 54.61 55.88 0)
+			(at 140.97 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +1975,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 31.75 50.8 0)
+		(at 193.04 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1984,7 +1984,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cc60a25-6097-4260-9000-446460bd5f18")
 		(property "Reference" "RV1"
-			(at 29.21 49.5299 0)
+			(at 190.5 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,7 +1993,7 @@
 			)
 		)
 		(property "Value" "R_Potentiometer"
-			(at 29.21 52.0699 0)
+			(at 190.5 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +2002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 50.8 0)
+			(at 193.04 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +2011,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 50.8 0)
+			(at 193.04 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +2020,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 31.75 50.8 0)
+			(at 193.04 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,7 +2048,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 20.32 78.74 0)
+		(at 86.36 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2057,7 +2057,7 @@
 		(fields_autoplaced yes)
 		(uuid "9daaf746-bc61-4c15-8ab8-672407047d4a")
 		(property "Reference" "J1"
-			(at 20.955 73.66 0)
+			(at 86.995 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2065,7 +2065,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 20.955 76.2 0)
+			(at 86.995 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,7 +2073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 78.74 0)
+			(at 86.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2082,7 +2082,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 78.74 0)
+			(at 86.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +2091,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 20.32 78.74 0)
+			(at 86.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +2248,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 46.99 27.94 0)
+		(at 186.69 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2257,7 +2257,7 @@
 		(fields_autoplaced yes)
 		(uuid "db4eeeac-d722-4a12-8961-ef90b671638a")
 		(property "Reference" "R1"
-			(at 49.53 26.6699 0)
+			(at 189.23 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,7 +2266,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 49.53 29.2099 0)
+			(at 189.23 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,7 +2275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.212 27.94 90)
+			(at 184.912 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,7 +2284,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 27.94 0)
+			(at 186.69 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2293,7 +2293,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 46.99 27.94 0)
+			(at 186.69 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +2318,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 38.1 81.28 0)
+		(at 203.2 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2327,7 +2327,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfb6757d-88e7-4e5e-87bc-78a15bb12025")
 		(property "Reference" "J2"
-			(at 38.735 73.66 0)
+			(at 203.835 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +2335,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 38.735 76.2 0)
+			(at 203.835 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 81.28 0)
+			(at 203.2 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +2352,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 81.28 0)
+			(at 203.2 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2361,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 38.1 81.28 0)
+			(at 203.2 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,7 +2389,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 63.5 27.94 0)
+		(at 102.87 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2398,7 +2398,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea6f558b-7d5d-45c6-b05c-ef38de222e76")
 		(property "Reference" "R3"
-			(at 66.04 26.6699 0)
+			(at 105.41 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +2407,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 66.04 29.2099 0)
+			(at 105.41 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +2416,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 61.722 27.94 90)
+			(at 101.092 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2425,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 27.94 0)
+			(at 102.87 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2434,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 63.5 27.94 0)
+			(at 102.87 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2459,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 30.48 66.04 0)
+		(at 102.87 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2468,23 +2468,25 @@
 		(fields_autoplaced yes)
 		(uuid "ebe109cb-7908-4214-97dd-1be9e0b45219")
 		(property "Reference" "D2"
-			(at 28.8925 59.69 0)
+			(at 106.68 101.9174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED"
-			(at 28.8925 62.23 0)
+			(at 106.68 104.4574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 66.04 0)
+			(at 102.87 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,7 +2495,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 66.04 0)
+			(at 102.87 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +2504,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 30.48 66.04 0)
+			(at 102.87 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2513,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 30.48 66.04 0)
+			(at 102.87 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
