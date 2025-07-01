@@ -1593,6 +1593,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Input 6V DC"
+		(exclude_from_sim no)
+		(at 77.216 96.012 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "383f380f-7d7f-4fca-a166-d1588e82d3a3")
+	)
+	(text "Servo Motor"
+		(exclude_from_sim no)
+		(at 232.41 89.662 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "804a7166-92cc-4bc5-89fb-a62cb36c1012")
+	)
 	(junction
 		(at 171.45 92.71)
 		(diameter 0)
@@ -1664,6 +1684,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4091b0d-9fcd-4e39-a1b5-f3c665973c86")
+	)
+	(no_connect
+		(at 128.27 96.52)
+		(uuid "a67e59da-fb04-4e3a-9e6b-91048bd5420f")
 	)
 	(wire
 		(pts
@@ -2377,18 +2401,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3883c0b7-8f29-4476-8a65-cde6cfa6190d")
 		(property "Reference" "R2"
-			(at 201.93 113.03 90)
+			(at 201.676 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 201.93 115.57 90)
+		(property "Value" "56K"
+			(at 201.93 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,7 +2479,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22nF"
 			(at 161.29 110.4899 0)
 			(effects
 				(font
@@ -2603,10 +2626,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6cc60a25-6097-4260-9000-446460bd5f18")
 		(property "Reference" "RV1"
-			(at 195.58 107.9499 0)
+			(at 195.072 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,8 +2636,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer"
-			(at 195.58 110.4899 0)
+		(property "Value" "100K"
+			(at 193.04 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,10 +2898,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "db4eeeac-d722-4a12-8961-ef90b671638a")
 		(property "Reference" "R1"
-			(at 189.23 96.5199 0)
+			(at 188.214 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,8 +2908,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 189.23 99.0599 0)
+		(property "Value" "3M3"
+			(at 186.69 99.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +3040,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ea6f558b-7d5d-45c6-b05c-ef38de222e76")
 		(property "Reference" "R3"
 			(at 105.41 83.8199 0)
@@ -3030,8 +3050,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 105.41 86.3599 0)
+		(property "Value" "1K"
+			(at 102.87 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
