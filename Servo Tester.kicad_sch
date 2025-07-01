@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "2a4bfae7-cb5f-4b4d-897c-4804f23c9985")
 	(paper "A4")
+	(title_block
+		(title "KiCAD Servo Tester Project")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
@@ -1613,6 +1616,26 @@
 		)
 		(uuid "804a7166-92cc-4bc5-89fb-a62cb36c1012")
 	)
+	(text "VCC"
+		(exclude_from_sim no)
+		(at 215.646 93.472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "870967b5-11f8-4548-a4aa-e7fea1f01ced")
+	)
+	(text "SIG"
+		(exclude_from_sim no)
+		(at 215.9 90.678 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de9a2df7-da0e-4c8a-84a5-199ba70eb35b")
+	)
 	(junction
 		(at 171.45 92.71)
 		(diameter 0)
@@ -2418,7 +2441,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 201.93 121.158 90)
 			(effects
 				(font
@@ -2488,7 +2511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 158.4452 113.03 0)
 			(effects
 				(font
@@ -2645,7 +2668,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
 			(at 193.04 109.22 0)
 			(effects
 				(font
@@ -2716,7 +2739,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 86.36 93.98 0)
 			(effects
 				(font
@@ -2917,7 +2940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 184.912 97.79 90)
 			(effects
 				(font
@@ -2987,7 +3010,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 223.52 93.98 0)
 			(effects
 				(font
@@ -3059,7 +3082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 101.092 85.09 90)
 			(effects
 				(font
@@ -3129,7 +3152,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 102.87 101.6 0)
 			(effects
 				(font
