@@ -2578,15 +2578,15 @@
 			(uuid "b9b0d0b7-2bfc-4756-8826-330700e99b87")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK163_Single_Horizontal.step"
+		(model "${KIPRJMOD}/Libraries/3d Models/RK1631110-L20.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -5 11)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
